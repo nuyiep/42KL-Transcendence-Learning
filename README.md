@@ -4,7 +4,8 @@ AidEyeKit is an open-source toolkit that enables app makers to create visual gui
 
 ## Demo on Phantom
 
-https://github.com/nuyiep/42KL-Transcendence-Learning/assets/53002130/4471ce9c-4112-4844-adc6-fdb125925be2
+![Uploading Phantom.gif…]()
+
 
 ## How it works
 
