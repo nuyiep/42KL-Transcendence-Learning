@@ -2,9 +2,9 @@
 
 AidEyeKit is an open-source toolkit that enables app makers to create visual guides within apps. Our goal is to make all apps user-friendly.
 
-## Demo on Phantom
+## Demo
 
-![Uploading Phantom.gif…]()
+[![Uploading Phantom.gif…]()](https://github.com/nuyiep/42KL-Transcendence-Learning/assets/53002130/328a9a2c-3a86-4703-9b1f-233f415255a0)
 
 
 ## How it works
