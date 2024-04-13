@@ -1,3 +1,6 @@
 myenv
 .DS_Store
 todolist/db_sqlite3
+todolist/__pycache__/settings.cpython-312.pyc
+base/__pycache__/urls.cpython-312.pyc
+base/__pycache__/views.cpython-312.pyc
