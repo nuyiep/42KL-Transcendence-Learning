@@ -50,7 +50,7 @@ class TaskList(LoginRequiredMixin, ListView):
 		search_input = self.request.GET.get('search-area') or ''
 		if search_input:
 			context['tasks'] = context['tasks'].filter(
-				title_icontains=search_input)
+				title__icontains=search_input)
 
 		context['search_input'] = search_input
 
@@ -66,7 +66,7 @@ class TaskCreate(LoginRequiredMixin, CreateView):
 	fields = ['title', 'description', 'complete']
 	success_url = reverse_lazy('tasks')
 
-	def form_invalid(self, form):
+	def form_valid(self, form):
 		form.instance.user = self.request.user
 		return super(TaskCreate, self).form_valid(form)
 
