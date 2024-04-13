@@ -17,9 +17,6 @@
 	- pip freeze > requirements.txt
 	- pip freeze - lists all the Python packages installed in your current environment and their versions - outputs the list in a format that can be used to reinstall the same set of packages later
 ___
-### Login:
-- peiyunlau, jigglypuff, togepi
-- ps: plau123, plau1234, plau1234
 
 Reference: 
 https://www.youtube.com/watch?v=llbtoQTt4qw
