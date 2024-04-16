@@ -26,3 +26,9 @@ ___
 
 Reference: 
 https://www.youtube.com/watch?v=llbtoQTt4qw
+
+___
+### Create a Virtual Environment 
+	- pip3 install pipenv - to create virtual environment (more troublesome I think)
+
+Reference: https://www.youtube.com/watch?v=rHux0gMZ3Eg&t=2683s&ab_channel=ProgrammingwithMosh 
