@@ -17,6 +17,7 @@
 	- python3 manage.py startapp base
 	- python3 manage.py migrate
 	- python3 manage.py runserver
+	- python3 manage.py createsuperuser
 
 	- pip freeze > requirements.txt
 	- pip freeze - lists all the Python packages installed in your current environment and their versions - outputs the list in a format that can be used to reinstall the same set of packages later
@@ -28,6 +29,10 @@ Reference:
 https://www.youtube.com/watch?v=llbtoQTt4qw
 
 ___
+### Notes
+	- views.py is a request handler
+	- request -> response
+
 ### Create a Virtual Environment 
 	- pip3 install pipenv - to create virtual environment (more troublesome I think)
 
