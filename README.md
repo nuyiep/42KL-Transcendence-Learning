@@ -35,9 +35,10 @@
  	- Run at http://127.0.0.1:8000/
 ___
 
-Reference: 
+Reference: <br>
 https://www.youtube.com/watch?v=llbtoQTt4qw <br>
-https://www.youtube.com/watch?v=0sMtoedWaf0&ab_channel=DennisIvy
+https://www.youtube.com/watch?v=0sMtoedWaf0&ab_channel=DennisIvy <br>
+https://www.youtube.com/watch?v=onDgK-bTvjM&ab_channel=%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B0%8F%E9%A3%9E
 ___
 ### Notes
 	- views.py is a request handler
