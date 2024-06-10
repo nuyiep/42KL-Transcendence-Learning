@@ -14,10 +14,13 @@
 		deactivate 
 
 	- pip install -r requirements.txt
-	# Creates boilerplate django files
+
+### To start a Django project
+	- Creates boilerplate django files
 	- django-admin startproject <project-name>
 
-	# Creates app folder and files
+### To create a Django app
+	- Creates app folder and files
 	- python3 manage.py startapp <app-name>
 
 	# Preps out database for migrations
@@ -41,9 +44,8 @@ Django To Do List App with user registration and Login (Dennis Ivy) https://www.
 Django Explained in 8 minutes (Denis Ivy) https://www.youtube.com/watch?v=0sMtoedWaf0&ab_channel=DennisIvy <br>
 Django explained in Chinese https://www.youtube.com/watch?v=onDgK-bTvjM&ab_channel=%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B0%8F%E9%A3%9E
 ___
-### Notes
-	- views.py is a request handler
-	- request -> response
+### Views.py
+	- A function that receives a request and returns a respoonse
 
 ### Create a Virtual Environment 
 	- pip3 install pipenv - to create virtual environment (more troublesome I think)
