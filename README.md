@@ -38,16 +38,22 @@
  	- Run at http://127.0.0.1:8000/
 ___
 
-Reference: <br>
-Django Docs https://docs.djangoproject.com/en/3.2/intro/tutorial01/ <br>
-Django To Do List App with user registration and Login (Dennis Ivy) https://www.youtube.com/watch?v=llbtoQTt4qw <br>
-Django Explained in 8 minutes (Denis Ivy) https://www.youtube.com/watch?v=0sMtoedWaf0&ab_channel=DennisIvy <br>
-Django explained in Chinese https://www.youtube.com/watch?v=onDgK-bTvjM&ab_channel=%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B0%8F%E9%A3%9E
-___
 ### Views.py
 	- A function that receives a request and returns a respoonse
 
 ### Create a Virtual Environment 
 	- pip3 install pipenv - to create virtual environment (more troublesome I think)
 
-Reference: https://www.youtube.com/watch?v=rHux0gMZ3Eg&t=2683s&ab_channel=ProgrammingwithMosh 
+### URL
+	- path("", include("singlepage.urls))
+	- Empty string represents the root URL of your project
+	- include("singlepage.urls) tells Django to include the URL patterns defined in the singlepage.urls module
+	- Easier to maintain URL patterns for different apps	
+
+___
+Reference: <br>
+- Django Docs https://docs.djangoproject.com/en/3.2/intro/tutorial01/ <br>
+- Django To Do List App with user registration and Login (Dennis Ivy) https://www.youtube.com/watch?v=llbtoQTt4qw <br>
+- Django Explained in 8 minutes (Denis Ivy) https://www.youtube.com/watch?v=0sMtoedWaf0&ab_channel=DennisIvy <br>
+- Django explained in Chinese https://www.youtube.com/watch?v=onDgK-bTvjM&ab_channel=%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B0%8F%E9%A3%9E
+- Django with Mosh https://www.youtube.com/watch?v=rHux0gMZ3Eg&t=2683s&ab_channel=ProgrammingwithMosh 
